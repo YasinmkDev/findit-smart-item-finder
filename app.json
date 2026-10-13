@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FAF9F6",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "icon": "./assets/icon.png",
+    "ios": {
+      "supportsTablet": true
+    },
+    "name": "FindIt - Smart Item Finder",
+    "orientation": "portrait",
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "FindIt needs camera access so you can take a photo of an item to remember.",
+          "photosPermission": "FindIt needs photo access so you can pick a photo of an item to remember."
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "FindIt needs photo access so you can choose which existing gallery photos to import and make searchable.",
+          "savePhotosPermission": "FindIt does not save photos to your library."
+        }
+      ],
+      "expo-sharing"
+    ],
+    "slug": "findit-smart-item-finder",
+    "scheme": "findit",
+    "userInterfaceStyle": "light",
+    "version": "0.13.2",
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
