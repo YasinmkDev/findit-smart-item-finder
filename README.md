@@ -14,7 +14,7 @@
 
 ## Screens
 
-Captured at 390×844 from the running web build, using the app's built-in sample data (guest mode). The app's default theme in this build is dark.
+Captured at 390×844 from the running web build, using the app's built-in sample data (guest mode). Screenshots were captured with the Light theme selected in Settings (the app's default theme is dark).
 
 ![Auth — the Living Wall sign-in screen](docs/screenshots/auth.png)
 *Auth — the Living Wall sign-in screen, with guest access.*
