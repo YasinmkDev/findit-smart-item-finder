@@ -12,6 +12,34 @@
 - **Places** — bento-style places, household sharing sheets, QR labels, printable reports
 - **Local accounts** — salted-hash prototype auth, photo metadata (taken-at, dimensions), 'Midnight' design system v4
 
+## Screens
+
+Captured at 390×844 from the running web build, using the app's built-in sample data (guest mode). The app's default theme in this build is dark.
+
+![Auth — the Living Wall sign-in screen](docs/screenshots/auth.png)
+*Auth — the Living Wall sign-in screen, with guest access.*
+
+![Home — search, places, and all stashed items](docs/screenshots/home.png)
+*Home — search, places, and all stashed items.*
+
+![Item detail — where an item is kept, its tags, and colours](docs/screenshots/item-detail.png)
+*Item detail — where an item is kept, its tags, and colours.*
+
+![Add item — stash a new item, starting with a photo](docs/screenshots/add-item.png)
+*Add item — stash a new item, starting with a photo.*
+
+![Import — bulk gallery import on the web build](docs/screenshots/import.png)
+*Import — bulk gallery import needs the full native app, so the web build shows this notice.*
+
+![Place — everything stashed in one place](docs/screenshots/places.png)
+*Place — everything stashed in one place.*
+
+![Settings — account, appearance, capture, and data options](docs/screenshots/settings.png)
+*Settings — account, appearance, capture, and data options.*
+
+![Paywall — FindIt Pro plans and trial](docs/screenshots/paywall.png)
+*Paywall — FindIt Pro plans and trial.*
+
 ## Run locally
 ```
 npm install
